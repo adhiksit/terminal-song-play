@@ -11,11 +11,18 @@
     "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["music", "player", "terminal", "cli", "audio"],
+  "keywords": [
+    "music",
+    "player",
+    "terminal",
+    "cli",
+    "audio"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@adhiksit/dayflow": "^1.0.0",
     "chalk": "^4.1.2",
     "cli-table3": "^0.6.5",
     "figlet": "^1.12.0",
